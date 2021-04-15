@@ -7,10 +7,10 @@
       "foreground": "#859900"
     },
     "variable.constant": {
-      "foreground": "#d33682"
+      "foreground": "#6c71c4"
     },
     "variable.defaultLibrary": {
-      "foreground": "#6c71c4"
+      "foreground": "#859900"
     }
   },
   "tokenColors": [
@@ -37,12 +37,19 @@
 			}
 		},
 		{
-			"name": "Names and Exceptions",
-			"scope": "entity.name, support.type.exception",
+			"name": "Names of things",
+			"scope": "entity.name",
 			"settings": {
 				"foreground": "#268bd2"
 			}
 		},
+    {
+			"name": "Exception names",
+      "scope": "support.type.exception",
+      "settings": {
+        "foreground": "#268bd2"
+      }
+    },
 		{
 			"name": "Constants",
 			"scope": "constant",
@@ -51,8 +58,8 @@
 			}
 		},
 		{
-			"name": "Variables",
-			"scope": "variable",
+			"name": "Parameters",
+			"scope": "variable.parameter",
 			"settings": {
 				"foreground": "#b58900"
 			}
@@ -146,6 +153,49 @@
 			"scope": "meta.function-call.generic.python",
 			"settings": {
 				"foreground": "#268bd2"
+			}
+		},
+    // Web-specific
+    {
+      "name": "Normal Variables",
+      "scope": "entity.name.variable",
+      "settings": {
+        "foreground": "#93a1a1"
+      }
+    },
+    {
+      "name": "Tag names",
+      "scope": "entity.name.tag",
+      "settings": {
+        "foreground": "#cb4b16"
+      }
+    },
+		{
+			"name": "Property names",
+			"scope": "support.type.property-name",
+			"settings": {
+				"foreground": "#859900"
+			}
+		},
+		{
+			"name": "CSS functions",
+			"scope": "source.css support.function",
+			"settings": {
+				"foreground": "#2aa198"
+			}
+		},
+		{
+			"name": "CSS classes",
+			"scope": "source.css entity.other",
+			"settings": {
+				"foreground": "#268bd2"
+			}
+		},
+		{
+      "name": "CSS variables",
+			"scope": "source.css variable",
+			"settings": {
+				"foreground": "#93a1a1"
 			}
 		},
 	],
