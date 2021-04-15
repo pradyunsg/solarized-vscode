@@ -1,0 +1,26 @@
+{
+    "name": "solarized-pradyunsg",
+    "displayName": "Solarized-pradyunsg",
+    "description": "Solarized UI themes, tweaked by @pradyunsg",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.55.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Solarized Light (@pradyunsg)",
+                "uiTheme": "vs",
+                "path": "./themes/solarized-light-pradyunsg-color-theme.json"
+            },
+            {
+                "label": "Solarized Dark (@pradyunsg)",
+                "uiTheme": "vs-dark",
+                "path": "./themes/solarized-dark-pradyunsg-color-theme.json"
+            }
+        ]
+    }
+}
