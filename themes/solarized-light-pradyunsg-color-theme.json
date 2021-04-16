@@ -15,83 +15,83 @@
   },
   "tokenColors": [
     // General
-		{
-			"name": "Comments",
-			"scope": "comment",
-			"settings": {
-				"foreground": "#93a1a1"
-			}
-		},
-		{
-			"name": "Strings",
-			"scope": "string",
-			"settings": {
-				"foreground": "#2aa198"
-			}
-		},
-		{
-			"name": "Support values",
-			"scope": "support",
-			"settings": {
-				"foreground": "#6c71c4"
-			}
-		},
-		{
-			"name": "Names of things",
-			"scope": "entity.name",
-			"settings": {
-				"foreground": "#268bd2"
-			}
-		},
     {
-			"name": "Exception names",
+      "name": "Comments",
+      "scope": "comment",
+      "settings": {
+        "foreground": "#93a1a1"
+      }
+    },
+    {
+      "name": "Strings",
+      "scope": "string",
+      "settings": {
+        "foreground": "#2aa198"
+      }
+    },
+    {
+      "name": "Support values",
+      "scope": "support",
+      "settings": {
+        "foreground": "#6c71c4"
+      }
+    },
+    {
+      "name": "Names of things",
+      "scope": "entity.name",
+      "settings": {
+        "foreground": "#268bd2"
+      }
+    },
+    {
+      "name": "Exception names",
       "scope": "support.type.exception",
       "settings": {
         "foreground": "#268bd2"
       }
     },
-		{
-			"name": "Constants",
-			"scope": "constant",
-			"settings": {
-				"foreground": "#6c71c4"
-			}
-		},
-		{
-			"name": "Parameters",
-			"scope": "variable.parameter",
-			"settings": {
-				"foreground": "#b58900"
-			}
-		},
-		{
-			"name": "Language Variables",
-			"scope": "variable.language",
-			"settings": {
-				"foreground": "#6c71c4"
-			}
-		},
-		{
-			"name": "Storage Names (class, def, struct, function)",
-			"scope": "storage.type",
-			"settings": {
-				"foreground": "#d33682"
-			}
-		},
-		{
-			"name": "Keyword",
-			"scope": "keyword",
-			"settings": {
-				"foreground": "#d33682"
-			}
-		},
-		{
-			"name": "Comment 'NOTE' tags",
-			"scope": "comment keyword.codetag",
-			"settings": {
-				"fontStyle": "bold"
-			}
-		},
+    {
+      "name": "Constants",
+      "scope": "constant",
+      "settings": {
+        "foreground": "#6c71c4"
+      }
+    },
+    {
+      "name": "Parameters",
+      "scope": "variable.parameter",
+      "settings": {
+        "foreground": "#b58900"
+      }
+    },
+    {
+      "name": "Language Variables",
+      "scope": "variable.language",
+      "settings": {
+        "foreground": "#6c71c4"
+      }
+    },
+    {
+      "name": "Storage Names (class, def, struct, function)",
+      "scope": "storage.type",
+      "settings": {
+        "foreground": "#d33682"
+      }
+    },
+    {
+      "name": "Keyword",
+      "scope": "keyword",
+      "settings": {
+        "foreground": "#d33682"
+      }
+    },
+    {
+      "name": "Comment 'NOTE' tags",
+      "scope": "comment keyword.codetag",
+      "settings": {
+        "fontStyle": "bold"
+      }
+    },
     // Markup
     {
       "scope": "markup.quote",
@@ -147,14 +147,14 @@
         "foreground": "#268bd2"
       }
     },
-		// Python-specific
-		{
-			"name": "Python Function calls",
-			"scope": "meta.function-call.generic.python",
-			"settings": {
-				"foreground": "#268bd2"
-			}
-		},
+    // Python-specific
+    {
+      "name": "Python Function calls",
+      "scope": "meta.function-call.generic.python",
+      "settings": {
+        "foreground": "#268bd2"
+      }
+    },
     // Web-specific
     {
       "name": "Normal Variables",
@@ -170,35 +170,35 @@
         "foreground": "#cb4b16"
       }
     },
-		{
-			"name": "Property names",
-			"scope": "support.type.property-name",
-			"settings": {
-				"foreground": "#859900"
-			}
-		},
-		{
-			"name": "CSS functions",
-			"scope": "source.css support.function",
-			"settings": {
-				"foreground": "#2aa198"
-			}
-		},
-		{
-			"name": "CSS classes",
-			"scope": "source.css entity.other",
-			"settings": {
-				"foreground": "#268bd2"
-			}
-		},
-		{
+    {
+      "name": "Property names",
+      "scope": "support.type.property-name",
+      "settings": {
+        "foreground": "#859900"
+      }
+    },
+    {
+      "name": "CSS functions",
+      "scope": "source.css support.function",
+      "settings": {
+        "foreground": "#2aa198"
+      }
+    },
+    {
+      "name": "CSS classes",
+      "scope": "source.css entity.other",
+      "settings": {
+        "foreground": "#268bd2"
+      }
+    },
+    {
       "name": "CSS variables",
-			"scope": "source.css variable",
-			"settings": {
-				"foreground": "#586e75"
-			}
-		},
-	],
+      "scope": "source.css variable",
+      "settings": {
+        "foreground": "#586e75"
+      }
+    },
+  ],
   "colors": {
     "activityBar.background": "#eee8d5",
     "activityBar.foreground": "#586e75",
