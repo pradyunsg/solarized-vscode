@@ -89,6 +89,7 @@
       "name": "Comment 'NOTE' tags",
       "scope": "comment keyword.codetag",
       "settings": {
+        "foreground": "#6c71c4",
         "fontStyle": "bold"
       }
     },
