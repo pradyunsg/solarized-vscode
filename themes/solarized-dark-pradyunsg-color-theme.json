@@ -3,15 +3,52 @@
   "type": "dark",
   "semanticHighlighting": true,
   "semanticTokenColors": {
-    "enumMember": {
-      "foreground": "#859900"
-    },
-    "variable.constant": {
-      "foreground": "#6c71c4"
-    },
-    "variable.defaultLibrary": {
-      "foreground": "#859900"
-    }
+    // "*.abstract": "nothing special",
+    // "*.async": "nothing special",
+    // "*.declaration": "nothing special",
+    // "*.deprecated": "nothing special",
+    // "*.documentation": "nothing special",
+    "*.global": "#6c71c4",
+    // "*.local": "nothing special",
+    // "*.modification": "nothing special",
+    // "*.readonly": "nothing special",
+    // "*.static": "nothing special",
+    "class": "#268bd2",
+    // "cliProperty": "nothing special",
+    "comment": "#586e75",
+    // "customLiteral": "nothing special",
+    // "enum": "nothing special",
+    "enumMember": "#859900",
+    // "event": "nothing special",
+    "function": "#268bd2",
+    // "genericType": "nothing special",
+    // "interface": "nothing special",
+    "keyword": "#d33682",
+    "label": "#cb4b16",
+    "macro": "#6c71c4",
+    "memberOperatorOverload": "#268bd2",
+    "method": "#268bd2",
+    // "namespace": "nothing special",
+    // "newOperator": "nothing special",
+    "number": "#6c71c4",
+    "numberLiteral": "#6c71c4",
+    // "operator": "nothing special",
+    // "operatorOverload": "nothing special",
+    "parameter": "#b58900",
+    "property": "#2aa198",
+    // "referenceType": "nothing special",
+    "regexp": "#859900",
+    "string": "#2aa198",
+    "stringLiteral": "#2aa198",
+    // "struct": "nothing special",
+    // "templateFunction": "nothing special",
+    "templateType": "#268bd2",
+    "type": "#6c71c4",
+    "typeParameter": "#6c71c4",
+    // "valueType": ""nothing special",
+    // "variable": "nothing special",
+    "variable.constant": "#6c71c4",
+    "variable.defaultLibrary": "#859900"
   },
   "tokenColors": [
     // General
@@ -72,10 +109,17 @@
       }
     },
     {
-      "name": "Storage Names (class, def, struct, function)",
-      "scope": "storage.type",
+      "name": "Storage (inline, private, const, class, def, struct)",
+      "scope": "storage",
       "settings": {
         "foreground": "#d33682"
+      }
+    },
+    {
+      "name": "Storage Type",
+      "scope": "storage.type",
+      "settings": {
+        "foreground": "#cb4b16"
       }
     },
     {
@@ -83,6 +127,13 @@
       "scope": "keyword",
       "settings": {
         "foreground": "#d33682"
+      }
+    },
+    {
+      "name": "Operators",
+      "scope": "keyword.operator",
+      "settings": {
+        "foreground": "#cb4b16"
       }
     },
     {
