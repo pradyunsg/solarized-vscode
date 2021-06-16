@@ -370,7 +370,7 @@
     "inputOption.activeBackground": "#eee8d5",
     "inputOption.activeBorder": "#00000000",
     "inputOption.activeForeground": "#586e75",
-    "list.activeSelectionBackground": "#fdf6e3",
+    "list.activeSelectionBackground": "#eee8d5",
     "list.activeSelectionForeground": "#586e75",
     "list.dropBackground": "#268bd228",
     "list.focusBackground": "#268bd220",
